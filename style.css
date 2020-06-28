@@ -1,0 +1,364 @@
+.container {
+   width:1000px;
+   margin:auto;
+   
+}
+/*The following is the style for the logo,search button and the login/register button*/
+.header {
+	
+  overflow: hidden;
+  font-family: Arial;
+  
+}
+.logo img{
+   
+   margin-left:25px;
+   float:left;
+   min-width:120px;
+   min-height:30px;
+}
+
+.login a{
+	
+ margin-top:-50px;
+ float: right;
+ background-color:#b7410e;
+ border:1px solid #660000;
+ border-radius:5px;
+ color:#fff;
+ margin-right:100px;
+ padding:10px 10px 10px 10px;
+}
+
+.Register a{
+ margin-bottom:20px;
+ margin-top:-50px;
+ float: right;
+ background-color:#b7410e;
+ border:1px solid #660000;
+ border-radius:5px;
+ color:#fff;
+ margin-left:290px;
+ padding:10px 10px 10px 10px;
+  
+}
+.adminlogin a{
+ margin-top:-50px;
+ float: right;
+ background-color:#b7410e;
+ border:1px solid #660000;
+ border-radius:5px;
+ color:#fff;
+ margin-right:200px;
+ padding:10px 10px 10px 10px;
+   
+}	
+
+
+.searchbtn input[type=text] {
+ 
+  padding: 6px;
+  width:350px;
+  margin-top: 40px;
+  box-sizing: border-box;
+  margin-left:70px;
+  margin-right: 70px;
+  font-size: 17px;
+
+}
+body {
+	font-family:"arial";
+	font-size:12pt;
+	font-style:normal;
+	background-color:#f5f5dc;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:#b7410e;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+/* Add a black background color to navbar links on hover */
+.navbar  a:hover   {
+ background-color: black;
+}
+
+/*index page text*/
+.text { 
+         padding: 0 5%; 
+ }
+.text {  
+         text-align: left; 
+         padding-top:5px;
+ }
+/*index page image*/
+#drinks { width: 100%; height:80%;border-radius: 5px; margin-top: 20px;}
+.container2{ 
+   padding-left: 5%;
+   float: right;
+   }
+   
+/*footer*/
+footer {
+	clear:both;
+	padding-top: 15px;
+	text-align:center;
+	min-height:100px;
+	color:white;
+	display: block;
+	height:5%;
+	background-color:#b7410e;
+	}
+/*login page starts here*/
+
+.Login {
+  padding: 20px;
+  
+}
+.loginbtn {
+  background-color:#b7410e;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  width: 20%;
+  
+}
+ .logout_btn{
+  background-color:#b7410e;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  width: 20%;
+  }
+
+
+	
+/*register page starts here*/
+
+.register {
+  padding: 20px;
+  
+}
+
+input[type=text], input[type=password], input[type=number],textarea[name=message],input[type=email] {
+ 
+border-radius: 5px;  
+margin: 2px 0 10px 0; 
+padding: 4px; 
+ width: 60%;
+resize: none;
+box-shadow: 2px 2px 4px ;
+border: solid #b7410e 1px; 
+
+}
+
+
+
+hr {
+  border: 1px solid #b7410e;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color:#b7410e;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  width: 20%;
+  
+}
+
+/*Contact us page starts here*/
+
+.contact {
+  margin-left:10px;
+  padding: 16px;
+  
+}
+
+.contactbtn {
+  background-color:#b7410e;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  width: 40%;
+  
+}
+
+.left {
+  padding-top: 20px;
+  width: 70%;
+  float:left;
+  left:30px;
+
+  
+}
+
+.right {
+   padding-top: 30px;
+   width: 30%;
+   float:right;
+   }
+ 
+ /*Deals page starts here*/
+ button {
+  background-color: #b7410e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+ 
+  font-size: 16px;
+  margin:6px 2px;
+  
+}
+.first {
+    float:left;
+    width: 33%;
+} 
+
+.middle {
+    float:left;
+    width: 33%;
+}
+.last {
+    float:left;
+    width: 33%;
+}
+
+.product {
+    text-align: center;
+    
+}
+
+.product img {
+    height: 200px;
+    width: 200px;
+}
+
+.details {
+    padding-bottom: 20px;
+}
+/*Admin login page*/
+
+
+.adminheader{
+  padding: 60px;
+  text-align: center;
+  background:#b7410e;
+  font-size: 20px;
+}
+
+.alogin {
+  padding: 20px;
+}
+.alogo img{
+   margin-top:80px;
+   margin-left:25px;
+   float:left;
+   min-width:120px;
+   min-height:30px;
+}
+
+	
+/*Admin.php*/
+
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+
+form {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #b7410e;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: white; 
+    background: #b7410e; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+.alogout_btn{
+  margin-left:100px;
+  float:right;
+  background-color:#b7410e;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  width: 10%;
+  }
+  
